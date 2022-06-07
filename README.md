@@ -13,7 +13,7 @@ The folders Flare_trigger_linear, Flare_trigger_twist and Flare_trigger_collide 
 - boundary.f90
 - shared_data.F90
 
-To utilise these files in Lare3d the first three should replace files of the same name in the src directory and the fourth should replace a file of the same name in the core subdirectory which is found within the src directory.
+To utilise these files in Lare3d the first three should replace files of the same name in the src directory and the fourth should replace a file of the same name in the core subdirectory which is found within the src directory. Information on how to run Lare3d is given in the Lare3d manual which can be accessed from the webpage https://warwick.ac.uk/fac/sci/physics/research/cfsa/people/tda/larexd/.
 
 ### Flare_trigger_linear
 
@@ -31,7 +31,7 @@ These files are used to reproduce simulations with a single BR that oscillates b
 - x_amp - the oscillation amplitude of the injected field along the PIL
 - y_amp - the oscillation amplitude of the injected field across the PIL
 - omega - the oscillation frequency of the injected field 
-- 
+
 ### Flare_trigger_twist
 
 These files are used to reproduce simulations with a single BR that oscillates torsionally but remains in the centre of the domain. The parameters that can be changed in this simulation can all be found in the shared_data.F90 file and are the same as those for Flare_trigger_linear but with no x_amp and y_amp and instead a parameter for the amplitude of torsional oscillations, rotamp0, which is the maximum rotation of the injected field in degrees.
@@ -41,4 +41,8 @@ These files are used to reproduce simulations with a single BR that oscillates t
 These files are used to reproduce simulations with a two BR that collide over the course of the simulation. The parameters that can be changed in this simulation can all be found in the shared_data.F90 file and are the same as those for Flare_trigger_linear but with no x_amp and y_amp and instead a parameter for the collision velocity coll_vel.
 
 Additionally the injected fields can be set to be either corotating, counter rotating or non-rotating by selecting the appropriate lines in both the initial_condition.f90 and boundary.f90 files.
+
+## Visualisation files
+
+The visualisation files are all located in the Visualisation_scripts folder. The scripts are all written in IDL and require the Start.pro script distributed with Lare3d in order to run, in addition to the SDF and IDL directories distributed with Lare3d that allow the Lare3d output files to be read within IDL. The user must initiate idl with the command idl Start.pro and can then proceed to run the chosen visualisation script. The user must also be sure that the simulation data is available for the simulation and the data is being read from the right location within the visualisation script.
 
