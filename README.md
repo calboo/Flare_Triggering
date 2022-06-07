@@ -44,5 +44,9 @@ Additionally the injected fields can be set to be either corotating, counter rot
 
 ## Visualisation files
 
-The visualisation files are all located in the Visualisation_scripts folder. The scripts are all written in IDL and require the Start.pro script distributed with Lare3d in order to run, in addition to the SDF and IDL directories distributed with Lare3d that allow the Lare3d output files to be read within IDL. The user must initiate idl with the command idl Start.pro and can then proceed to run the chosen visualisation script. The user must also be sure that the simulation data is available for the simulation and the data is being read from the right location within the visualisation script.
+The visualisation script files are all located in the Visualisation_scripts folder. These scripts are named according to the figure in https://iopscience.iop.org/article/10.3847/1538-4357/aba61a that they were used to produce.
+
+The scripts are all written in IDL and require the Start.pro script distributed with Lare3d in order to run, in addition to the SDF and IDL directories distributed with Lare3d that allow the Lare3d output files to be read within IDL. The user must initiate idl with the command idl Start.pro and can then proceed to run the chosen visualisation script. 
+
+The user must also be sure that the simulation data is available for the simulation and the data is being read from the right location within the visualisation script.
 
