@@ -148,8 +148,6 @@ MODULE shared_data
   REAL(num) :: t1 = 18.0_num
   REAL(num) :: t0 = 0.0_num
   REAL(num) :: B_e = 2.0_num
-  REAL(num) :: x_amp = 0.0_num
-  REAL(num) :: y_amp = 0.0_num
   REAL(num) :: omega = 0.0_num
   REAL(num) :: coll_vel = 0.1_num
 
