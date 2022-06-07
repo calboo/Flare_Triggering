@@ -1,2 +1,5 @@
 # Flare_Triggering
-Flare Triggering Project - Simulation and Visualisation 
+
+Flare Triggering Project - simulation and visualisation files
+
+## Simulation files
