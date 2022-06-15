@@ -19,18 +19,20 @@ To utilise these files in Lare3d the first three should replace files of the sam
 
 These files are used to reproduce simulations with a single BR that oscillates both along and across the PIL. The parameters that can be changed in this simulation can all be found in the shared_data.F90 file, under flare triggering parameters, and are:
 
-- theta0 - the angle at which the overlying field is sheared relative to the PIL
-- phif - the angle at which the injected field is oriented relative to the PIL
-- vzf - the vertical velocity at which the plasma within the injected field rises
-- z0 - the initial vertical coordinate of the centre of the injected field
-- r0 - the radius of the injected field ellipsoid perpendicular to the PIL
-- a0 - the radius of injected field ellipsoid parallel to the PIL
-- t1 - the time at which the injected field stops rising
-- t0 - the time at which the injected field begins rising
-- B_e - the magnetic field strength within the injected field
-- x_amp - the oscillation amplitude of the injected field along the PIL
-- y_amp - the oscillation amplitude of the injected field across the PIL
-- omega - the oscillation frequency of the injected field 
+| Parameter | Description |
+| --- | --- |
+| theta0 | the angle at which the overlying field is sheared relative to the PIL|
+| phif | the angle at which the injected field is oriented relative to the PIL|
+| vzf | the vertical velocity at which the plasma within the injected field rises|
+| z0 | the initial vertical coordinate of the centre of the injected field|
+| r0 | the radius of the injected field ellipsoid perpendicular to the PIL|
+| a0 | the radius of injected field ellipsoid parallel to the PIL|
+| t1 | the time at which the injected field stops rising|
+| t0 | the time at which the injected field begins rising|
+| B_e | the magnetic field strength within the injected field|
+| x_amp | the oscillation amplitude of the injected field along the PIL|
+| y_amp | the oscillation amplitude of the injected field across the PIL|
+| omega | the oscillation frequency of the injected field |
 
 Note that all parameters are given in normalised units, see Lare3d manual for more info.
 
