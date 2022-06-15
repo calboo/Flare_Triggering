@@ -32,6 +32,8 @@ These files are used to reproduce simulations with a single BR that oscillates b
 - y_amp - the oscillation amplitude of the injected field across the PIL
 - omega - the oscillation frequency of the injected field 
 
+Note that all parameters are given in normalised units, see Lare3d manual for more info.
+
 ### Flare_trigger_twist
 
 These files are used to reproduce simulations with a single BR that oscillates torsionally but remains in the centre of the domain. The parameters that can be changed in this simulation can all be found in the shared_data.F90 file and are the same as those for Flare_trigger_linear but with no x_amp and y_amp and instead a parameter for the amplitude of torsional oscillations, rotamp0, which is the maximum rotation of the injected field in degrees.
