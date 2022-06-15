@@ -24,7 +24,7 @@ CONTAINS
   SUBROUTINE set_initial_conditions
 
   INTEGER :: ix, iy, iz
-  REAL(num) :: beta, alpha, k, kk, drivx,drivy
+  REAL(num) :: beta, alpha, k, kk, drivx, drivy
 
 ! Gravity and plasma beta 
   grav = 0.0_num
