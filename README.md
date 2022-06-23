@@ -4,7 +4,7 @@ To simulate the triggering of solar flares the MHD simulation code Lare3d was us
 
 In the simulations emerging bipolar regions (BRs) of magnetic field were injected into a domain with a non-potential sheared magnetic field arcade. The overlying field changes polarity across a polarity inversion line (PIL) and the injected field emerges in the centre of the domain along the PIL. The injected field is an ellipsoid that has opposite polarity to the overlying field and induces flaring through magnetic reconnection. In this project the effects of oscillating, twisting and colliding BRs on the strength of induced flares was considered. The project is described in the paper:
 
-The Effects of Oscillations and Collisions of Emerging Bipolar Regions on the Triggering of Solar Flares, https://iopscience.iop.org/article/10.3847/1538-4357/aba61a,
+*The Effects of Oscillations and Collisions of Emerging Bipolar Regions on the Triggering of Solar Flares*, https://iopscience.iop.org/article/10.3847/1538-4357/aba61a,
 
 This repository contains all the files needed to reproduce the simulations described and the figures shown in this paper. 
 
