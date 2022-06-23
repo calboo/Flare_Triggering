@@ -1,4 +1,4 @@
-# Flare_Triggering
+# Flare Triggering
 
 To simulate the triggering of solar flares the MHD simulation code Lare3d was used. The Lare3d code, manual and IDL visualisation scripts can be found here:  https://warwick.ac.uk/fac/sci/physics/research/cfsa/people/tda/larexd/.
 
