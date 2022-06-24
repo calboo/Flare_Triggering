@@ -50,6 +50,10 @@ These files are used to reproduce simulations with a two BR that collide over th
 
 Additionally the injected fields can be set to be either corotating, counter rotating or non-rotating by selecting the appropriate lines in both the initial_condition.f90 and boundary.f90 files.
 
+### Flare_trigger_compress
+
+These files are used to reproduce **compressible** simulations with a single BR that oscillates both along and across the PIL. These files are identical to those in Flare_trigger_linear except that in the boundary.f90 file the densities and internal energies as not reset at each timestep, rather they are fixed at the boundaries and the density is fixed one cell into the domain at the lower boundary.
+
 ## Visualisation files
 
 The visualisation script files are all located in the Visualisation_scripts folder. These scripts are named according to the figure in https://iopscience.iop.org/article/10.3847/1538-4357/aba61a that they were used to produce.
